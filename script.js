@@ -9,19 +9,19 @@ context.height= context.scrollHeight;
 context.beginPath();
 context.moveTo(170,80);
 context.rect(188,150,130,200);
-context.fillStyle = 'salmon';
+context.fillStyle = 'red';
 context.fill();
 
 context.beginPath();
 context.moveTo(170,80);
 context.rect(188,140,130,30);
-context.fillStyle = 'black';
+context.fillStyle = 'blue';
 context.fill();
 
 context.beginPath();
 context.moveTo(170,80);
 context.rect(245,120,20,20);
-context.fillStyle = 'salmon';
+context.fillStyle = 'blue';
 context.fill();
 
 
