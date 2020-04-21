@@ -5,7 +5,7 @@ canvas.height= canvas.scrollHeight;
 context.height= context.scrollWidth;
 context.height= context.scrollHeight;
 
-//gelas tertutup
+//Gambar Gelas Tertutup
 context.beginPath();
 context.moveTo(170,80);
 context.rect(188,150,130,200);
@@ -14,7 +14,7 @@ context.fill();
 
 context.beginPath();
 context.moveTo(170,80);
-context.rect(188,140,130,20);
+context.rect(188,140,130,30);
 context.fillStyle = 'black';
 context.fill();
 
@@ -25,7 +25,7 @@ context.fillStyle = 'salmon';
 context.fill();
 
 
-//gelas terbuka dan tertutup
+//Gambar Gelas Terbuka dan Tertutup
 context.beginPath();
 context.moveTo(170,80);
 context.rect(500,150,130,200);
@@ -35,7 +35,7 @@ context.fill();
 context.beginPath();
 context.moveTo(170,80);
 context.rotate(75 * Math.PI/360);
-context.rect(462,-293,130,20);
+context.rect(462,-293,130,30);
 context.fillStyle = 'black';
 context.fill();
 
@@ -46,7 +46,7 @@ context.fillStyle = 'salmon';
 context.fill();
 
 
-//gelas terbuka
+//Gambar Gelas Terbuka
 context.fillStyle='salmon';
 context.strokeStyle='salmon';
 context.rotate(-75 * Math.PI/360);
