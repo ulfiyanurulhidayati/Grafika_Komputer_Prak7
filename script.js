@@ -43,3 +43,22 @@ context.moveTo(170,80);
 context.rect(520,-305,20,20);
 context.fillStyle = 'salmon';
 context.fill();
+
+//gelas terbuka
+context.fillStyle='salmon';
+context.strokeStyle='black';
+context.rotate(-75 * Math.PI/360);
+context.fillRect(800,150,130,200);
+
+context.fillStyle = 'black';
+context.translate(170,80);
+context.rotate(Math.PI/2);
+context.rect(700,-450,130,20);
+context.fillRect(-60,-760,130,20);
+context.strokeStyle = 'black';
+context.strokeRect(-60,-760,130,20);
+
+context.fillStyle = 'salmon';
+context.fillRect(-3,-780,20,20);
+context.strokeStyle = 'salmon';
+context.strokeRect(-3,-780,20,20);
