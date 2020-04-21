@@ -14,7 +14,7 @@ context.fill();
 
 context.beginPath();
 context.moveTo(170,80);
-context.rect(188,140,130,30);
+context.rect(188,140,130,20);
 context.fillStyle = 'black';
 context.fill();
 
@@ -35,7 +35,7 @@ context.fill();
 context.beginPath();
 context.moveTo(170,80);
 context.rotate(75 * Math.PI/360);
-context.rect(462,-293,130,30);
+context.rect(462,-293,130,20);
 context.fillStyle = 'black';
 context.fill();
 
