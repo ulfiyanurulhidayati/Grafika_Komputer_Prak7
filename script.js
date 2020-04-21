@@ -15,13 +15,13 @@ context.fill();
 context.beginPath();
 context.moveTo(170,80);
 context.rect(188,140,130,30);
-context.fillStyle = 'blue';
+context.fillStyle = 'black';
 context.fill();
 
 context.beginPath();
 context.moveTo(170,80);
 context.rect(245,120,20,20);
-context.fillStyle = 'blue';
+context.fillStyle = 'salmon';
 context.fill();
 
 
