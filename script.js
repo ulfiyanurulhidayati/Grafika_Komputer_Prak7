@@ -9,7 +9,7 @@ context.height= context.scrollHeight;
 context.beginPath();
 context.moveTo(170,80);
 context.rect(188,150,130,200);
-context.fillStyle = 'red';
+context.fillStyle = 'salmon';
 context.fill();
 
 context.beginPath();
