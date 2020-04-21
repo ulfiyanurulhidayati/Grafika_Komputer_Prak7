@@ -53,10 +53,10 @@ context.fillRect(800,150,130,200);
 context.fillStyle = 'black';
 context.translate(170,80);
 context.rotate(Math.PI/2);
-context.rect(700,-450,130,20);
-context.fillRect(-60,-760,130,20);
+context.rect(700,-450,130,30);
+context.fillRect(-60,-760,130,30);
 context.strokeStyle = 'black';
-context.strokeRect(-60,-760,130,20);
+context.strokeRect(-60,-760,130,30);
 
 context.fillStyle = 'salmon';
 context.fillRect(-3,-780,20,20);
