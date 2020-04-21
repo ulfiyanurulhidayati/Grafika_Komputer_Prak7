@@ -24,7 +24,7 @@ context.rect(245,120,20,20);
 context.fillStyle = 'salmon';
 context.fill();
 
-//Gambar Gelas Terbuka dan Tertutup
+//Gelas Terbuka dan Tertutup
 context.beginPath();
 context.moveTo(170,80);
 context.rect(500,150,130,200);
@@ -46,7 +46,7 @@ context.fill();
 
 //gelas terbuka
 context.fillStyle='salmon';
-context.strokeStyle='black';
+context.strokeStyle='salmon';
 context.rotate(-75 * Math.PI/360);
 context.fillRect(800,150,130,200);
 
